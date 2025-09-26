@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>My Website</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <div class="music-toggle">
+        <img src="images/loa.png" alt="Bật nhạc" id="playButton">
+        <audio id="myAudio">
+            <source src="nhac.mp3" type="audio/mpeg">
+            Trình duyệt không hỗ trợ audio.
+        </audio>
+    </div>
+    
+    <header>
+        <h1>Chào mừng đến với Blog của mình</h1>
+        <p>Nơi chia sẻ những điều tuyệt vời nhất trong cuộc sống</p>
+    </header>
+    <div class="container">
+        <div class="blog-grid">
+            <div class="post" onclick="showPost(0)">
+                <img src="images/blog1.png" alt="Blog 1">
+                <h2>LeetCode</h2>
+                <p>Ấn vào để xem chi tiết...</p>
+            </div>
+
+            <div class="post" onclick="showPost(1)">
+                <img src ="images/HL1.jpg" alt="Blog 2">
+                <h2>HanwhaLife Financial Mentor</h2>
+                <p>Ấn vào để xem chi tiết...</p>
+            </div>
+
+            <div class="post" onclick="showPost(2)">
+                <img src ="images/JavaBasics1.jpg" alt="Java Basic">
+                <h2>Java Basics</h2>
+                <p>Ấn vào để xem chi tiết...</p>
+            </div>
+
+            <div class="post" onclick="showPost(3)">
+                <img src ="images/OOP1.png" alt="OOP">
+                <h2>OOP</h2>
+                <p>Ấn vào để xem chi tiết...</p>
+            </div>
+
+            <div class="post" onclick="showPost(4)">
+                <img src ="images/Exception Handling.png" alt="Exception Handling">
+                <h2>OOP</h2>
+                <p>Ấn vào để xem chi tiết...</p>
+            </div>
+
+            <div class="post" onclick="showPost(5)">
+                <img src ="images/Collections Framework.png" alt="Collections Framework">
+                <h2>Collections Framework</h2>
+                <p>Ấn vào để xem chi tiết...</p>
+            </div>
+            <!-- Thêm các post khác tương tự -->
+        </div>
+
+        <!-- Khung nổi hiện nội dung -->
+        <div id="popup" class="popup hidden">
+            <div class="popup-content">
+                <span class="close-btn" onclick="closePopup()">x</span>
+                <h2 id="popupTitle"></h2>
+                <p id="popupContent"></p>
+            </div>
+        </div>
+    </div>
+</body>
