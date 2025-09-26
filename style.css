@@ -1,0 +1,353 @@
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 500px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #1f1c2c, #928dab);
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 20px;
+    color: #ccc;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+.post img {
+  width: 100%;                /* Ảnh luôn rộng bằng khung post */
+  height: 200px;              /* Chiều cao đồng nhất cho tất cả */
+  object-fit: cover;          /* Cắt ảnh để lấp đầy khung mà không méo */
+  border-radius: 6px;         /* Tuỳ chọn: bo góc nhẹ cho đẹp */
+  display: block;             /* Đảm bảo ảnh không bị thừa khoảng trắng dưới */
+}
+
+.post h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ffd700;
+}
+
+.intro-section {
+  padding: 60px 20px;
+  background: #f5f5f5;
+  background-color: #f5f5f5; /* nền xám nhạt */
+}
+
+.intro-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: auto;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.intro-text {
+  max-width: 500px;
+  color: #222; /* hoặc #000 cho đen hoàn toàn */
+}
+
+.intro-text h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+.intro-text p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.music-toggle {
+  background: transparent;
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 999;
+}
+
+.music-toggle img {
+  width: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.music-toggle img:hover {
+  transform: scale(1.2);
+}
+
+.avatar-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.avatar {
+  width: 150px;
+  height: 200px; /* 👈 Tăng chiều cao để tạo hình oval */
+  object-fit: cover;
+  border-radius: 50% / 60%; /* 👈 Tạo bo tròn theo chiều dọc */
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  cursor: pointer;
+}
+
+.faded {
+  opacity: 0.4;
+  transform: scale(0.8);
+}
+
+.active {
+  opacity: 1;
+  transform: scale(1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+.post {
+  flex: 1 1 32%;                    /* 3 post 1 hàng, co giãn */
+  min-width: 250px;                  /* hạn chế quá nhỏ */
+  background: #665d5d;              
+  border-radius: 12px;              
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  box-sizing: border-box;
+}
+
+/* Responsive trên màn hình nhỏ */
+@media (max-width: 900px) {
+  .post {
+    flex: 1 1 45%;   /* 2 post 1 hàng */
+  }
+}
+
+@media (max-width: 600px) {
+  .post {
+    flex: 1 1 100%;  /* 1 post 1 hàng */
+  }
+}
+
+
+.post:hover {
+  transform: scale(1.05);
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  width: 90%;
+  text-align: left;
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #1f1c2c;
+}
+
+.hidden {
+  display: none;
+}
+
+/* reset box-sizing cho popup content */
+#popup, #popup * {
+  box-sizing: border-box;
+}
+
+/* dark overlay + ẩn theo mặc định */
+#popup {
+  position: fixed;
+  inset: 0; /* top:0; right:0; bottom:0; left:0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.5);
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 220ms ease;
+}
+
+/* khi hiển thị */
+#popup.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* popup-box chính */
+.popup-content {
+  background: #fff;
+  width: min(900px, 95vw);      /* responsive: tối đa 900px, tối thiểu full width trên mobile */
+  max-width: 95vw;
+  max-height: 80vh;            /* giới hạn chiều cao: 80% viewport-height */
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  overflow: hidden;
+  
+  /* animation: phình to bằng scale */
+  transform: translateY(-10px) scale(0.96);
+  transition: transform 220ms cubic-bezier(.2,.9,.2,1), opacity 220ms;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* khi popup mở, animate to scale(1) */
+#popup.show .popup-content {
+  transform: translateY(0) scale(1);
+  opacity: 1;
+}
+
+/* vùng chứa nội dung thực sự, có scroll dọc */
+#popupContent {
+  overflow-y: auto;
+  padding-right: 8px; /* tránh nội dung chạm viền khi có scroll bar */
+  color: black;       /* bạn muốn chữ đen */
+  line-height: 1.6;
+  /* Chiều cao tính từ padding - để nội dung cuộn trong max-height: 80vh */
+  /* Tính cao cho vùng nội dung = max-height của popup trừ khoảng cho title/close */
+  max-height: calc(80vh - 100px);
+}
+
+/* nút đóng nằm góc phải */
+.close-btn {
+  position: absolute;
+  right: 18px;
+  top: 14px;
+  cursor: pointer;
+  font-size: 22px;
+  line-height: 1;
+  background: transparent;
+  border: none;
+}
+
+/* đảm bảo popup-content có vị trí relative để close-btn position absolute hoạt động */
+.popup-content { position: relative; }
+
+/* tùy chỉnh cho mobile: chiếm gần full height */
+@media (max-width: 480px) {
+  .popup-content {
+    width: calc(100vw - 20px);
+    max-height: 92vh;
+    padding: 16px;
+    border-radius: 10px;
+  }
+  #popupContent { max-height: calc(92vh - 90px); }
+}
+
+/* optional: ẩn thanh cuộn mặc nếu muốn, hoặc tùy chỉnh style scrollbar */
+
+
+#popupContent img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 14px auto;
+  border-radius: 8px;
+}
+
+.post h2 {
+  color: #ff6600;    /* Đổi màu chữ tại đây – ví dụ cam */
+  font-weight: bold; /* (tuỳ) đậm hơn một chút */
+}
+
+#popupTitle {
+  color: black;      /* đổi màu ở đây, ví dụ cam */
+  font-size: 1.8rem;   /* (tuỳ) chỉnh kích thước chữ */
+  font-weight: bold;   /* (tuỳ) làm đậm chữ */
+  margin-bottom: 1rem; /* (tuỳ) khoảng cách dưới tiêu đề */
+}
+
+

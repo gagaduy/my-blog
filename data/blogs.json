@@ -1,0 +1,166 @@
+[
+  {
+    "title": "LeetCode",
+    "content": [
+    "<h2>Giới thiệu</h2>\n",
+    "<p>Lý do mình bắt đầu học LeetCode là muốn cải thiện kỹ năng code, thích giải đố và có một người chú làm trong lĩnh vực AI khuyên nhủ. Ban đầu mình khá bỡ ngỡ và có phần lo lắng.</p>\n",
+    "\n<h2>Khởi đầu</h2>\n<p>Những ngày đầu rất khó khăn: chưa quen cách đọc đề, vốn tiếng Anh hạn chế và chưa biết đến các dạng form chuẩn. Ngay cả những bài <strong>Easy</strong> như <em>Two Sum</em>, <em>Valid Parentheses</em> cũng làm mình tốn nhiều thời gian.</p><img src='images/LeetCode1.png' alt='Quá trình luyện tập'>\n", 
+    "\n<h2>Quá trình luyện tập</h2>\n<p>Mỗi ngày mình đặt mục tiêu giải ít nhất 1 bài. Khi có thời gian rảnh và tinh thần thoải mái hơn, mình có thể làm từ 4–6 bài. Ngoài ra, mình thường xuyên dành thời gian để <strong>review lại code</strong>. Những chủ đề cơ bản mình học ban đầu gồm: <strong>Array</strong>, <strong>HashMap</strong>, <strong>Two Pointers</strong>, và <strong>Linked List</strong>.</p>\n\n<h2>Khó khăn và cách vượt qua</h2>\n<p>Ban đầu rất khó để duy trì thói quen luyện tập, nhiều lúc cảm thấy nản và phải xem code mẫu của người khác hoặc dùng các công cụ hỗ trợ. Cách mình vượt qua là xem lời giải mẫu rồi tự viết lại theo cách hiểu của mình, sau đó làm thêm các bài tương tự trong cùng chủ đề. Quan trọng nhất là giữ vững tinh thần, không bỏ cuộc: mỗi ngày cố gắng giải hoặc review ít nhất một bài.</p>\n\n<h2>Thành quả</h2>\n<p>Sau khoảng 1 tháng, mình đã giải được hơn 40 bài Easy và có thể làm được 1–2 bài Medium. Sau khoảng 100 bài Easy, mình bắt đầu giải Medium tự tin hơn, và đến khi giải được 140 bài Easy thì chuyển hẳn sang Medium. Đến nay, mình đã giải hơn 100 bài Medium. Việc luyện tập trên LeetCode giúp mình nâng cao tư duy thuật toán, hiểu bài học trên lớp dễ hơn và không còn lúng túng khi xem các video phỏng vấn giải thuật.</p>\n",
+    "<img src='images/LeetCode2.png'> \n<h2>Lời khuyên cho người mới</h2>\n",
+    "<p>Điều quan trọng nhất là <strong>không bỏ cuộc</strong>. Hãy coi mỗi bài giải được là một niềm vui nhỏ. Cảm giác thành tựu sẽ tiếp thêm động lực để bạn đi xa hơn. Khi nhìn lại, bạn sẽ bất ngờ vì chặng đường mình đã đi qua.</p>\n\n<h2>Kết luận</h2>\n<p>Tóm lại, hành trình luyện tập trên LeetCode không dễ dàng nhưng rất đáng giá. Chỉ cần kiên trì và giữ thói quen mỗi ngày, bạn sẽ đạt được tiến bộ đáng kể.</p>"
+    ]
+  },
+  {
+    "title": "HanwhaLife Financial Mentor",
+    "content": ["<h2>Giới thiệu</h2>\n<p>Mình tham gia chương trình <strong>HanwhaLife Financial Mentor</strong> vì cơ hội nhận học bổng bằng tiền mặt và đặc biệt là phần thưởng hấp dẫn – một chuyến đi trải nghiệm tại Hàn Quốc. Đây cũng là cơ hội hiếm có để mở rộng tầm nhìn về ngành tài chính – bảo hiểm và kết nối với nhiều bạn trẻ có cùng đam mê.</p>\n", 
+    "<img src='images/HL4.png'>",
+    "\n<h2>Kỳ vọng và Ấn tượng ban đầu</h2>\n<p>Ngay từ đầu, mình đã kỳ vọng có thể giành được suất học bổng giá trị và mong muốn được đặt chân ra nước ngoài lần đầu tiên. Ấn tượng ban đầu về chương trình là sự chuyên nghiệp, quy mô và tính cạnh tranh khá cao, khiến mình vừa hào hứng vừa hồi hộp.</p>\n", 
+    "\n<h2>Quá trình tham gia</h2>\n<p>Để tiến xa trong chương trình, mình phải trải qua nhiều vòng xét duyệt: từ kiểm tra <strong>GPA</strong>, phỏng vấn tiếng Anh, cho đến kiểm tra kiến thức tài chính. Mỗi vòng đều mang đến thách thức mới, đòi hỏi sự chuẩn bị kỹ càng và tinh thần bền bỉ. Mình đã phải học hỏi thêm về đầu tư, bảo hiểm và cả cách quản lý tài chính cá nhân.</p>\n", 
+    "<img src='images/HL2.png'>",
+    "\n<h2>Khó khăn và Bài học</h2>\n<p>Một trong những khó khăn lớn nhất là làm việc cùng những người giỏi hơn mình. Ban đầu mình thấy áp lực và phải nỗ lực rất nhiều để bắt kịp tiến độ của mọi người. Thêm vào đó, kiến thức về tài chính của mình còn hạn chế nên phải dành nhiều thời gian tự học thêm.</p>\n<p>Nhưng chính nhờ vậy, mình học được cách <strong>làm việc nhóm hiệu quả</strong>, mở rộng hiểu biết về đầu tư, bảo hiểm và nhận thức rõ hơn về <strong>trách nhiệm xã hội</strong> của các doanh nghiệp. Đây là những bài học quý giá không chỉ cho chương trình mà còn cho hành trình phát triển bản thân sau này.</p>\n", 
+    "\n<h2>Thành quả</h2>\n<p>Dù chưa biết mình có được đặt chân đến Hàn Quốc hay không, nhưng việc đi đến gần cuối chặng đường của chương trình đã là một thành quả lớn. Mình đã nhận được một phần học bổng từ những vòng trước, gặp gỡ và kết nối được với nhiều người bạn mới, và quan trọng hơn là bản thân trưởng thành hơn qua mỗi thử thách.</p>\n", 
+    "<img src='images/HL3.png'>",
+    "\n<h2>Lời khuyên và Cảm nhận</h2>\n<p>Chương trình này thật sự là một thử thách không nhỏ, đặc biệt khi phải cân bằng giữa việc học ở trường và các hoạt động của chương trình. Mặc dù có đôi lúc chương trình gặp vấn đề như thay đổi lịch trình, mình vẫn cảm thấy may mắn vì đã tham gia. Hy vọng trong tương lai sẽ có thêm những cơ hội rõ ràng và ổn định hơn, và khi đó mình sẽ đủ trưởng thành để chinh phục chúng một cách trọn vẹn.</p>"
+    ]
+  },
+
+  {
+  "title": "Java Basics",
+  "content": [
+    "<h2>Giới thiệu</h2>",
+    "<p>Java là một ngôn ngữ lập trình phổ biến, hướng đối tượng, mạnh mẽ và dễ bảo trì. Bài viết này sẽ giới thiệu những khái niệm cơ bản, giúp bạn làm quen với Java nếu mới bắt đầu.</p>",
+    
+    "<h2>Biến và kiểu dữ liệu</h2>",
+    "<p>Trong Java, mọi dữ liệu đều phải có kiểu. Một số kiểu dữ liệu cơ bản:</p>",
+    "<ul>",
+    "<li><strong>int</strong>: số nguyên</li>",
+    "<li><strong>double</strong>: số thực</li>",
+    "<li><strong>boolean</strong>: true hoặc false</li>",
+    "<li><strong>char</strong>: ký tự</li>",
+    "<li><strong>String</strong>: chuỗi ký tự</li>",
+    "</ul>",
+    "<p>Ví dụ khai báo biến:</p>",
+    "<pre>int age = 20;\nString name = \"Duy\";\nboolean isStudent = true;</pre>",
+
+    "<h2>Toán tử</h2>",
+    "<p>Java hỗ trợ toán tử số học (+, -, *, /, %), toán tử so sánh (==, !=, &lt;, &gt;, &lt;=, &gt;=) và toán tử logic (&&, ||, !).</p>",
+    "<p>Ví dụ:</p>",
+    "<pre>int a = 5;\nint b = 3;\nboolean result = (a &gt; b) && (b &lt; 10); // true</pre>",
+
+    "<h2>Vòng lặp</h2>",
+    "<p>Vòng lặp giúp lặp đi lặp lại các đoạn code:</p>",
+    "<ul>",
+    "<li><strong>for</strong>: lặp số lần xác định</li>",
+    "<li><strong>while</strong>: lặp khi điều kiện đúng</li>",
+    "<li><strong>do-while</strong>: lặp ít nhất một lần</li>",
+    "</ul>",
+    "<p>Ví dụ:</p>",
+    "<pre>for(int i = 0; i &lt; 5; i++) {\n    System.out.println(i);\n}</pre>",
+
+    "<h2>Câu lệnh điều kiện</h2>",
+    "<p>Java dùng <strong>if-else</strong> để kiểm tra điều kiện:</p>",
+    "<pre>int score = 85;\nif(score &gt;= 90) {\n    System.out.println(\"Xuất sắc\");\n} else if(score &gt;= 70) {\n    System.out.println(\"Khá\");\n} else {\n    System.out.println(\"Cần cố gắng\");\n}</pre>",
+
+    "<h2>Hàm / Method</h2>",
+    "<p>Hàm (method) giúp tái sử dụng code:</p>",
+    "<pre>public static int sum(int a, int b) {\n    return a + b;\n}\n\nint result = sum(5, 3); // 8</pre>",
+
+    "<h2>Kết luận</h2>",
+    "<p>Những kiến thức cơ bản này là nền tảng để bạn học các chủ đề nâng cao trong Java như OOP, Collections hay Streams. Hãy thử viết các chương trình nhỏ để luyện tập và ghi nhớ cách sử dụng biến, toán tử, vòng lặp và hàm.</p>"
+  ]
+},
+
+{
+  "title": "OOP trong Java",
+  "content": [
+    "<h2>Giới thiệu</h2>",
+    "<p>Lập trình hướng đối tượng (OOP) là phương pháp tổ chức code thành các đối tượng, giúp dễ quản lý, mở rộng và tái sử dụng. Java là ngôn ngữ hướng đối tượng hoàn toàn, nên hiểu OOP là điều cần thiết.</p>",
+
+    "<h2>Class và Object</h2>",
+    "<p>Class là khuôn mẫu để tạo đối tượng (object). Object là thực thể của class.</p>",
+    "<p>Ví dụ:</p>",
+    "<pre>public class Person {\n    String name;\n    int age;\n\n    void sayHello() {\n        System.out.println(\"Hello, my name is \" + name);\n    }\n}\n\nPerson p = new Person();\np.name = \"Duy\";\np.age = 20;\np.sayHello();</pre>",
+
+    "<h2>Encapsulation (Đóng gói)</h2>",
+    "<p>Ẩn dữ liệu bằng <strong>private</strong> và cung cấp <strong>getter/setter</strong> để truy cập.</p>",
+    "<pre>public class Person {\n    private String name;\n    public void setName(String name) { this.name = name; }\n    public String getName() { return name; }\n}</pre>",
+
+    "<h2>Inheritance (Kế thừa)</h2>",
+    "<p>Class con kế thừa class cha bằng từ khóa <strong>extends</strong>, giúp tái sử dụng code.</p>",
+    "<pre>class Animal {\n    void eat() { System.out.println(\"Eating...\"); }\n}\n\nclass Dog extends Animal {\n    void bark() { System.out.println(\"Woof!\"); }\n}\n\nDog d = new Dog();\nd.eat(); // từ class cha\n d.bark();</pre>",
+
+    "<h2>Polymorphism (Đa hình)</h2>",
+    "<p>Cho phép dùng một phương thức với nhiều dạng khác nhau, ví dụ <strong>overloading</strong> và <strong>overriding</strong>.</p>",
+    "<pre>class Calculator {\n    int sum(int a, int b) { return a + b; }\n    double sum(double a, double b) { return a + b; }\n}</pre>",
+
+    "<h2>Abstraction (Trừu tượng)</h2>",
+    "<p>Ẩn chi tiết thực hiện, chỉ cung cấp giao diện. Dùng <strong>abstract class</strong> hoặc <strong>interface</strong>.</p>",
+    "<pre>abstract class Shape {\n    abstract void draw();\n}\n\nclass Circle extends Shape {\n    void draw() { System.out.println(\"Drawing circle\"); }\n}</pre>",
+
+    "<h2>Kết luận</h2>",
+    "<p>Hiểu rõ OOP giúp bạn tổ chức code gọn gàng, dễ bảo trì và mở rộng. Các nguyên tắc chính cần nhớ: Class/Object, Encapsulation, Inheritance, Polymorphism và Abstraction.</p>"
+  ]
+},
+
+{
+  "title": "Exception Handling",
+  "content": [
+    "<h2>Giới thiệu</h2>",
+    "<p>Trong Java, khi chương trình gặp lỗi trong quá trình chạy, gọi là <strong>exception</strong>. Exception Handling giúp chương trình không bị dừng đột ngột và xử lý lỗi một cách an toàn.</p>",
+
+    "<h2>Try – Catch</h2>",
+    "<p>Cấu trúc cơ bản để bắt lỗi:</p>",
+    "<pre>try {\n    // đoạn code có thể gây lỗi\n    int result = 10 / 0;\n} catch (ArithmeticException e) {\n    System.out.println(\"Lỗi chia cho 0: \" + e.getMessage());\n}</pre>",
+
+    "<h2>Finally</h2>",
+    "<p>Khối <strong>finally</strong> luôn được thực hiện, dù có exception hay không:</p>",
+    "<pre>try {\n    System.out.println(\"Thực hiện try\");\n} catch(Exception e) {\n    System.out.println(\"Có lỗi xảy ra\");\n} finally {\n    System.out.println(\"Luôn chạy finally\");\n}</pre>",
+
+    "<h2>Throw và Throws</h2>",
+    "<p>Dùng <strong>throw</strong> để ném 1 exception, <strong>throws</strong> để khai báo method có thể ném exception:</p>",
+    "<pre>public void checkAge(int age) throws IllegalArgumentException {\n    if(age &lt; 18) {\n        throw new IllegalArgumentException(\"Tuổi phải từ 18 trở lên\");\n    }\n}\n\ntry {\n    checkAge(15);\n} catch(IllegalArgumentException e) {\n    System.out.println(e.getMessage());\n}</pre>",
+
+    "<h2>Các loại Exception phổ biến</h2>",
+    "<ul>",
+    "<li>ArithmeticException – lỗi toán học (chia cho 0)</li>",
+    "<li>NullPointerException – tham chiếu null</li>",
+    "<li>ArrayIndexOutOfBoundsException – truy xuất mảng ngoài phạm vi</li>",
+    "<li>IOException – lỗi input/output</li>",
+    "</ul>",
+
+    "<h2>Kết luận</h2>",
+    "<p>Exception Handling giúp chương trình Java ổn định, tránh crash khi gặp lỗi. Các công cụ chính gồm <strong>try-catch-finally</strong>, <strong>throw</strong> và <strong>throws</strong>. Việc nắm rõ exception phổ biến giúp debug nhanh hơn và viết code an toàn hơn.</p>"
+  ]
+},
+
+{
+  "title": "Collections Framework",
+  "content": [
+    "<h2>Giới thiệu</h2>",
+    "<p>Collections Framework trong Java cung cấp các cấu trúc dữ liệu như List, Set, Map để lưu trữ, truy xuất và xử lý dữ liệu một cách linh hoạt và hiệu quả. Đây là phần quan trọng để viết code gọn gàng và dễ bảo trì.</p>",
+
+    "<h2>List</h2>",
+    "<p>List là tập hợp các phần tử có thứ tự, có thể chứa trùng lặp.</p>",
+    "<p>Ví dụ ArrayList:</p>",
+    "<pre>import java.util.ArrayList;\n\nArrayList<String> names = new ArrayList<>();\nnames.add(\"Duy\");\nnames.add(\"An\");\nnames.add(\"Lan\");\nSystem.out.println(names.get(0)); // Duy</pre>",
+
+    "<h2>Set</h2>",
+    "<p>Set là tập hợp không có phần tử trùng lặp, không có thứ tự cố định.</p>",
+    "<pre>import java.util.HashSet;\n\nHashSet<Integer> numbers = new HashSet<>();\nnumbers.add(10);\nnumbers.add(20);\nnumbers.add(10); // trùng sẽ bị bỏ qua\nSystem.out.println(numbers);</pre>",
+
+    "<h2>Map</h2>",
+    "<p>Map lưu trữ dữ liệu dưới dạng key-value, key là duy nhất.</p>",
+    "<pre>import java.util.HashMap;\n\nHashMap<String, Integer> scores = new HashMap<>();\nscores.put(\"Duy\", 95);\nscores.put(\"An\", 88);\nSystem.out.println(scores.get(\"Duy\")); // 95</pre>",
+
+    "<h2>Iterator</h2>",
+    "<p>Iterator giúp duyệt qua các phần tử của Collection:</p>",
+    "<pre>import java.util.ArrayList;\nimport java.util.Iterator;\n\nArrayList<String> list = new ArrayList<>();\nlist.add(\"A\");\nlist.add(\"B\");\nIterator<String> it = list.iterator();\nwhile(it.hasNext()) {\n    System.out.println(it.next());\n}</pre>",
+
+    "<h2>Kết luận</h2>",
+    "<p>Collections Framework là công cụ cực kỳ mạnh mẽ trong Java. Nắm rõ List, Set, Map và cách duyệt qua các phần tử giúp bạn xử lý dữ liệu nhanh chóng và viết code rõ ràng, dễ bảo trì.</p>"
+  ]
+}
+
+
+
+]
