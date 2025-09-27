@@ -91,3 +91,4 @@ document.getElementById('popup').addEventListener('click', function(e) {
 // nếu bạn có close button trong popup nội bộ, cho nó gọi closePopup()
 // <span class="close-btn" onclick="closePopup()">×</span>
 
+fetch('./data/blogs.json')
