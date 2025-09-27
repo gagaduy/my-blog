@@ -185,6 +185,44 @@
     "<h3>6. Kết luận</h3>",
     "<p>Streams API kết hợp với Lambda expressions giúp code ngắn gọn, dễ đọc và dễ bảo trì hơn khi làm việc với collection dữ liệu trong Java.</p>"
   ]
+}, 
+
+{
+  "title": "JS Basics – Biến, hàm, vòng lặp, object, array",
+  "content": [
+    "<h2>Giới thiệu</h2>",
+    "<p>JavaScript (JS) là ngôn ngữ lập trình phổ biến để xây dựng website tương tác. Bài viết này giới thiệu các khái niệm cơ bản nhất: biến, hàm, vòng lặp, object và array.</p>",
+
+    "<h2>Biến (Variables)</h2>",
+    "<p>Dùng để lưu trữ dữ liệu. Có 3 cách khai báo: <code>var</code>, <code>let</code>, <code>const</code>.</p>",
+    "<pre><code>let name = 'Duy';\nconst age = 20;\nvar city = 'HCM';</code></pre>",
+    "<p><strong>let</strong> và <strong>const</strong> (ES6) được khuyến khích dùng thay cho <strong>var</strong>.</p>",
+
+    "<h2>Hàm (Functions)</h2>",
+    "<p>Hàm giúp tái sử dụng code.</p>",
+    "<pre><code>function greet(name) {\n  return 'Hello ' + name;\n}\n\nconsole.log(greet('Duy'));</code></pre>",
+    "<p>Arrow function:</p>",
+    "<pre><code>const add = (a, b) => a + b;\nconsole.log(add(2, 3)); // 5</code></pre>",
+
+    "<h2>Vòng lặp (Loops)</h2>",
+    "<p>Dùng để lặp nhiều lần một đoạn code.</p>",
+    "<pre><code>for(let i = 0; i < 5; i++) {\n  console.log(i);\n}</code></pre>",
+    "<pre><code>let j = 0;\nwhile(j < 5) {\n  console.log(j);\n  j++;\n}</code></pre>",
+
+    "<h2>Object</h2>",
+    "<p>Object lưu trữ dữ liệu dạng key–value.</p>",
+    "<pre><code>const person = {\n  name: 'Duy',\n  age: 20\n};\nconsole.log(person.name);</code></pre>",
+
+    "<h2>Array</h2>",
+    "<p>Array là danh sách phần tử, có thể chứa nhiều kiểu dữ liệu.</p>",
+    "<pre><code>const numbers = [1, 2, 3, 4];\nconsole.log(numbers[0]); // 1</code></pre>",
+    "<p>Một số hàm xử lý array phổ biến:</p>",
+    "<pre><code>numbers.push(5); // thêm phần tử\nnumbers.pop(); // xóa phần tử cuối\nnumbers.forEach(n => console.log(n));</code></pre>",
+
+    "<h2>Kết luận</h2>",
+    "<p>Nắm vững các khái niệm cơ bản này sẽ giúp bạn dễ dàng học các chủ đề nâng cao hơn như DOM, event handling, async/await.</p>"
+  ]
 }
+
 
 ]
