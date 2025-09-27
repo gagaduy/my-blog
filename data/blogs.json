@@ -227,19 +227,42 @@
 {
   "title": "DOM Manipulation – querySelector, innerHTML, event listeners",
   "content": [
-    "DOM (Document Object Model) là mô hình dữ liệu biểu diễn toàn bộ nội dung của trang web dưới dạng một cây gồm các nút (nodes).\n",
-    "Mỗi phần tử HTML như thẻ <div>, <p>, <h1>, hình ảnh hoặc nút bấm đều được xem là một node trong cây DOM.\n",
-    "Việc hiểu và thao tác với DOM là một kỹ năng quan trọng của lập trình viên web, vì nó cho phép bạn làm cho trang web trở nên động, tương tác và phản hồi theo hành vi của người dùng.\n",
-    "Khi trình duyệt tải một trang web, nó sẽ phân tích cú pháp (parse) mã HTML và CSS để xây dựng cây DOM.\n",
-    "Cây này là nơi JavaScript có thể truy cập và thay đổi cấu trúc hoặc nội dung của trang mà không cần tải lại toàn bộ trang.\n",
-    "...\n",
-    "const title = document.querySelector('#main-title');\n",
-    "title.textContent = 'Tiêu đề đã được thay đổi';\n",
-    "...\n",
-    "Tóm lại, DOM Manipulation là một kỹ năng cốt lõi cho lập trình viên front-end.\n"
+    "<h2>Giới thiệu</h2>",
+    "<p>DOM (Document Object Model) là cấu trúc dữ liệu dạng cây đại diện cho toàn bộ nội dung của một trang web. Mỗi thẻ HTML như <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, hình ảnh hoặc nút bấm đều là một nút (node) trong cây DOM.</p>",
+    "<p>Bằng cách sử dụng JavaScript, lập trình viên có thể truy cập và thay đổi cây DOM để cập nhật nội dung, thêm hoặc xóa phần tử, và phản hồi các hành động của người dùng mà không cần tải lại trang.</p>",
+
+    "<h2>querySelector</h2>",
+    "<p><code>querySelector()</code> cho phép chọn phần tử DOM đầu tiên khớp với bộ chọn CSS.</p>",
+    "<pre><code>const title = document.querySelector('#main-title');\nconsole.log(title);\n\nconst firstParagraph = document.querySelector('.intro');\nconst button = document.querySelector('button');</code></pre>",
+    "<p>Ta có thể chọn phần tử dựa vào <strong>id</strong>, <strong>class</strong> hoặc tên thẻ HTML.</p>",
+
+    "<h2>Thay đổi nội dung với innerHTML và textContent</h2>",
+    "<p>Sau khi đã chọn được phần tử DOM, có thể thay đổi nội dung bằng <code>textContent</code> hoặc <code>innerHTML</code>.</p>",
+    "<pre><code>const title = document.querySelector('#main-title');\ntitle.textContent = 'Tiêu đề mới';</code></pre>",
+    "<p><code>innerHTML</code> cho phép chèn thêm HTML bên trong phần tử:</p>",
+    "<pre><code>const container = document.querySelector('#container');\ncontainer.innerHTML = '&lt;p&gt;Nội dung mới với &lt;strong&gt;HTML&lt;/strong&gt;&lt;/p&gt;';</code></pre>",
+
+    "<h2>Event Listeners</h2>",
+    "<p>Event listener cho phép lắng nghe và xử lý các sự kiện người dùng như click, nhập liệu, cuộn trang.</p>",
+    "<pre><code>const button = document.querySelector('#myButton');\nbutton.addEventListener('click', function() {\n  alert('Bạn vừa nhấn nút!');\n});</code></pre>",
+    "<p>Có thể dùng hàm mũi tên (arrow function):</p>",
+    "<pre><code>button.addEventListener('click', () =&gt; {\n  console.log('Button clicked!');\n});</code></pre>",
+
+    "<h2>Ví dụ kết hợp</h2>",
+    "<pre><code>&lt;h1 id='main-title'&gt;Xin chào!&lt;/h1&gt;\n&lt;button id='changeBtn'&gt;Đổi tiêu đề&lt;/button&gt;\n&lt;script&gt;\n  const title = document.querySelector('#main-title');\n  const button = document.querySelector('#changeBtn');\n\n  button.addEventListener('click', () =&gt; {\n    title.textContent = 'Tiêu đề đã được thay đổi!';\n  });\n&lt;/script&gt;</code></pre>",
+    "<p>Khi người dùng nhấn nút, nội dung tiêu đề sẽ thay đổi mà không cần tải lại trang.</p>",
+
+    "<h2>Lợi ích của DOM Manipulation</h2>",
+    "<ul>",
+    "<li>Tạo giao diện người dùng động và tương tác.</li>",
+    "<li>Cải thiện trải nghiệm người dùng nhờ phản hồi tức thì.</li>",
+    "<li>Giúp cập nhật nội dung trang mà không cần tải lại toàn bộ.</li>",
+    "</ul>",
+
+    "<h2>Kết luận</h2>",
+    "<p>DOM Manipulation là kỹ năng nền tảng cho lập trình viên front-end. Thành thạo <code>querySelector</code>, <code>innerHTML</code> và <code>event listeners</code> sẽ giúp bạn xây dựng các trang web linh hoạt và thân thiện với người dùng.</p>"
   ]
 }
-
 
 
 ]
