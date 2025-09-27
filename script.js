@@ -1,3 +1,5 @@
+fetch('./data/blogs.json')
+
 document.addEventListener("DOMContentLoaded", function () {
   const audio = document.getElementById("myAudio");
   const button = document.getElementById("playButton");
@@ -90,6 +92,4 @@ document.getElementById('popup').addEventListener('click', function(e) {
 
 // nếu bạn có close button trong popup nội bộ, cho nó gọi closePopup()
 // <span class="close-btn" onclick="closePopup()">×</span>
-
-fetch('./data/blogs.json')
 
