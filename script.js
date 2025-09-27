@@ -1,5 +1,3 @@
-fetch('./data/blogs.json')
-
 document.addEventListener("DOMContentLoaded", function () {
   const audio = document.getElementById("myAudio");
   const button = document.getElementById("playButton");
