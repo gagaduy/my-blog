@@ -19,3 +19,8 @@ DOM Manipulation – querySelector, innerHTML, event listeners.
 ES6 Features – let/const, arrow functions, template literals, destructuring.
 
 Async Programming – Callbacks, Promises, Async/Await, fetch API.
+
+git push:
+git add .
+git commit -m "cập nhật ..."
+git push origin main
