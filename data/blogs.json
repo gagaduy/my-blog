@@ -159,6 +159,32 @@
     "<h2>Kết luận</h2>",
     "<p>Collections Framework là công cụ cực kỳ mạnh mẽ trong Java. Nắm rõ List, Set, Map và cách duyệt qua các phần tử giúp bạn xử lý dữ liệu nhanh chóng và viết code rõ ràng, dễ bảo trì.</p>"
   ]
+},
+{
+  "title": "Streams API & Lambda – Map, Filter, Reduce, Lambda Expressions",
+  "content": [
+    "<h3>1. Streams API là gì?</h3>",
+    "<p>Streams API trong Java (từ Java 8) cho phép thao tác dữ liệu theo kiểu lập trình hàm. Thay vì dùng vòng lặp truyền thống, bạn có thể dùng các phương thức như <code>map()</code>, <code>filter()</code>, <code>reduce()</code>...</p>",
+
+    "<h3>2. Lambda Expressions</h3>",
+    "<p>Lambda là cách viết hàm ngắn gọn, thường dùng với Streams. Ví dụ:</p>",
+    "<pre><code>List&lt;Integer&gt; nums = Arrays.asList(1, 2, 3, 4, 5);\nnums.forEach(n -&gt; System.out.println(n));</code></pre>",
+
+    "<h3>3. Map</h3>",
+    "<p>Dùng để biến đổi từng phần tử:</p>",
+    "<pre><code>List&lt;Integer&gt; squared = nums.stream()\n    .map(n -&gt; n * n)\n    .collect(Collectors.toList());</code></pre>",
+
+    "<h3>4. Filter</h3>",
+    "<p>Lọc dữ liệu dựa trên điều kiện:</p>",
+    "<pre><code>List&lt;Integer&gt; even = nums.stream()\n    .filter(n -&gt; n % 2 == 0)\n    .collect(Collectors.toList());</code></pre>",
+
+    "<h3>5. Reduce</h3>",
+    "<p>Gộp dữ liệu thành một giá trị duy nhất:</p>",
+    "<pre><code>int sum = nums.stream()\n    .reduce(0, (a, b) -&gt; a + b);</code></pre>",
+
+    "<h3>6. Kết luận</h3>",
+    "<p>Streams API kết hợp với Lambda expressions giúp code ngắn gọn, dễ đọc và dễ bảo trì hơn khi làm việc với collection dữ liệu trong Java.</p>"
+  ]
 }
 
 
